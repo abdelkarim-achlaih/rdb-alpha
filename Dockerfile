@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 
-ARG USERNAME=camper
+ARG USERNAME=web4jobs
 ARG HOMEDIR=/workspace/project
 
 ENV TZ="America/New_York" \
@@ -29,4 +29,4 @@ ENV CODEROAD_DISABLE_RUN_ON_SAVE=true
 # Do not change above this line.
 
 # Paste your token below:
-ENV CODEROAD_WEBHOOK_TOKEN=
+# ENV CODEROAD_WEBHOOK_TOKEN=
